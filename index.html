@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AkroMarketing | Web Development &amp; Digital Marketing Agency, India &amp; USA</title>
+<meta name="description" content="AkroMarketing is a founder-led web development and digital marketing agency rooted in Darbhanga, Bihar, serving businesses across India and the United States, including Texas, New York City, and San Francisco.">
+<meta name="keywords" content="web development agency, digital marketing agency, creative branding, Darbhanga, Bihar, India, United States, Texas, New York City, San Francisco">
+<meta name="author" content="Akshat Roy">
+<meta name="theme-color" content="#0a0a0f">
+<link rel="canonical" href="https://www.example.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AkroMarketing">
+<meta property="og:title" content="AkroMarketing | Web Development &amp; Digital Marketing, India &amp; USA">
+<meta property="og:description" content="Founder-led web development and digital marketing agency with roots in Bihar and an international client focus.">
+<meta property="og:url" content="https://www.example.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AkroMarketing | Web Development &amp; Digital Marketing">
+<meta name="twitter:description" content="Creative web development and strategic digital marketing for businesses in India and the United States.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "AkroMarketing",
+  "description": "Founder-led web development and digital marketing agency rooted in Darbhanga, Bihar, serving businesses in India and the United States.",
+  "url": "https://www.example.com/",
+  "email": "akshat.roy307@gmail.com",
+  "founder": { "@type": "Person", "name": "Akshat Roy", "jobTitle": "Founder & CEO" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Darbhanga", "addressRegion": "Bihar", "addressCountry": "IN" },
+  "areaServed": [
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "United States" },
+    { "@type": "State", "name": "Texas" },
+    { "@type": "City", "name": "New York City" },
+    { "@type": "City", "name": "San Francisco" }
+  ],
+  "knowsAbout": ["Web development", "Digital marketing", "Branding"]
+}
+</script>
+<style>
+:root{
+  --bg:#0a0a0f; --bg2:#101018; --card:#14141e; --line:rgba(255,255,255,.08);
+  --text:#ecebf3; --muted:#9a9ab0; --gold:#d6b36a; --gold2:#f1d9a0; --violet:#7c6cff;
+  --radius:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:#000;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+header.nav{position:sticky;top:0;z-index:50;background:rgba(10,10,15,.8);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:700;font-size:1.25rem;letter-spacing:.02em}
+.logo span{color:var(--gold)}
+.nav ul{display:flex;gap:28px;list-style:none;font-size:.92rem;color:var(--muted)}
+.nav ul a:hover{color:var(--text)}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;font-size:.95rem;transition:transform .2s,box-shadow .2s}
+.btn-primary{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#15120a}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(214,179,106,.25)}
+.btn-ghost{border:1px solid var(--line);color:var(--text)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold2)}
+@media(max-width:760px){.nav ul{display:none}}
+
+.hero{padding:110px 0 90px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:640px;height:640px;background:radial-gradient(circle,rgba(124,108,255,.22),transparent 65%);pointer-events:none}
+.hero::after{content:"";position:absolute;left:-10%;bottom:-30%;width:560px;height:560px;background:radial-gradient(circle,rgba(214,179,106,.14),transparent 65%);pointer-events:none}
+.eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+h1{font-size:clamp(2.3rem,5.4vw,4.2rem);line-height:1.08;letter-spacing:-.02em;font-weight:700;max-width:860px}
+h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{margin-top:24px;max-width:640px;color:var(--muted);font-size:1.12rem}
+.hero .actions{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.pills{margin-top:44px;display:flex;gap:10px;flex-wrap:wrap}
+.pill{font-size:.82rem;padding:7px 14px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:rgba(255,255,255,.02)}
+
+section{padding:96px 0}
+section.alt{background:var(--bg2);border-block:1px solid var(--line)}
+.sec-head{max-width:700px;margin-bottom:48px}
+h2{font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.15;letter-spacing:-.015em}
+.sec-head p{margin-top:16px;color:var(--muted);font-size:1.05rem}
+
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px;transition:border-color .25s,transform .25s}
+.card:hover{border-color:rgba(214,179,106,.4);transform:translateY(-3px)}
+.card .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:rgba(214,179,106,.1);color:var(--gold);margin-bottom:18px}
+.card h3{font-size:1.1rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.95rem}
+
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.about p{color:var(--muted);margin-top:16px;font-size:1.05rem}
+.about ul{list-style:none;display:grid;gap:14px}
+.about li{display:flex;gap:14px;padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.about li b{display:block;font-size:1rem}
+.about li span{color:var(--muted);font-size:.9rem}
+.dot{flex:none;width:10px;height:10px;margin-top:8px;border-radius:50%;background:var(--gold)}
+@media(max-width:860px){.about{grid-template-columns:1fr}}
+
+/* Founder */
+.founder{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+.portrait{position:relative;aspect-ratio:4/5;border-radius:24px;border:1px solid var(--line);overflow:hidden;background:linear-gradient(160deg,#1a1a28,#0e0e16)}
+.portrait::before{content:"";position:absolute;inset:14px;border:1px solid rgba(214,179,106,.35);border-radius:16px;pointer-events:none;z-index:2}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
+.portrait .ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--muted);font-size:.85rem;text-align:center;padding:24px}
+.portrait .ph svg{width:96px;height:96px;opacity:.55}
+.founder h2{margin-bottom:6px}
+.founder .name{font-size:1.5rem;font-weight:600;margin-top:22px}
+.founder .role{color:var(--gold);font-size:.95rem;margin-bottom:20px}
+.founder p.desc{color:var(--muted);font-size:1.05rem}
+blockquote{margin-top:28px;padding:24px 28px;border-left:3px solid var(--gold);background:var(--card);border-radius:0 14px 14px 0}
+blockquote p{font-size:1.05rem;color:var(--text)}
+blockquote cite{display:block;margin-top:12px;font-style:normal;color:var(--gold);font-size:.9rem}
+@media(max-width:860px){.founder{grid-template-columns:1fr}.portrait{max-width:380px}}
+
+/* Reach */
+.reach-map{position:relative;border:1px solid var(--line);border-radius:24px;background:radial-gradient(ellipse at 50% 0%,rgba(124,108,255,.1),transparent 60%),var(--card);padding:28px;margin-bottom:28px;overflow:hidden}
+.reach-map svg{width:100%;height:auto;display:block}
+.reach-cols{display:grid;grid-template-columns:1fr 1.4fr;gap:24px}
+.region{border:1px solid var(--line);border-radius:var(--radius);padding:28px;background:var(--card)}
+.region h3{display:flex;align-items:center;gap:10px;font-size:1.25rem;margin-bottom:6px}
+.tag{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border-radius:999px;font-weight:600}
+.tag-base{background:rgba(214,179,106,.15);color:var(--gold2);border:1px solid rgba(214,179,106,.4)}
+.tag-mkt{background:rgba(124,108,255,.15);color:#b9b0ff;border:1px solid rgba(124,108,255,.4)}
+.region > p{color:var(--muted);font-size:.92rem;margin-bottom:20px}
+.locs{display:grid;gap:12px}
+.region.us .locs{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.loc{padding:16px 18px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.02)}
+.loc b{display:block}
+.loc small{color:var(--muted);font-size:.8rem}
+.region.india .loc{border-color:rgba(214,179,106,.4);background:rgba(214,179,106,.06)}
+.region.us .loc{border-style:dashed}
+.note{margin-top:22px;color:var(--muted);font-size:.85rem}
+@media(max-width:860px){.reach-cols{grid-template-columns:1fr}}
+
+.cta{text-align:center}
+.cta h2{max-width:720px;margin:0 auto}
+.cta p{color:var(--muted);margin:16px auto 32px;max-width:560px}
+
+footer{border-top:1px solid var(--line);padding:56px 0 32px;background:var(--bg2)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot p,.foot li{color:var(--muted);font-size:.92rem}
+.foot h4{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.foot ul{list-style:none;display:grid;gap:8px}
+.foot a:hover{color:var(--text)}
+.legal{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.foot{grid-template-columns:1fr}}
+
+.dash{stroke-dasharray:6 8;animation:flow 14s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-280}}
+.pulse{animation:pulse 2.6s ease-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="AkroMarketing home">Akro<span>Marketing</span></a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#reach">Our Reach</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="#contact">Start a project</a>
+  </div>
+</header>
+
+<main id="main">
+<div id="top"></div>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <span class="eyebrow">Web Development &amp; Digital Marketing Agency</span>
+    <h1 id="hero-title">Premium digital experiences, <em>built from Bihar for brands in India and the USA.</em></h1>
+    <p class="lead">AkroMarketing is a founder-led agency combining creative web development, strategic digital marketing, and thoughtful branding to help ambitious businesses grow online.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#contact">Start a project</a>
+      <a class="btn btn-ghost" href="#reach">See where we serve</a>
+    </div>
+    <div class="pills" aria-label="Highlights">
+      <span class="pill">Founder-led</span>
+      <span class="pill">Client-focused</span>
+      <span class="pill">Rooted in Darbhanga, Bihar</span>
+      <span class="pill">Serving India &amp; the United States</span>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="alt" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What we do</span>
+      <h2 id="services-title">Creativity, technology, and business thinking in one team.</h2>
+    </div>
+    <div class="grid4">
+      <article class="card">
+        <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Creative Web Development</h3>
+        <p>Fast, modern, responsive websites designed to look sharp and convert visitors into customers.</p>
+      </article>
+      <article class="card">
+        <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></svg></div>
+        <h3>Strategic Digital Marketing</h3>
+        <p>Campaigns and online presence strategies built around your business goals, not vanity metrics.</p>
+      </article>
+      <article class="card">
+        <div class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg></div>
+        <h3>Premium Brand Experiences</h3>
+        <p>Creative branding and visual identity that makes your business feel distinctive and trustworthy.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="about-title">
+  <div class="wrap about">
+    <div>
+      <span class="eyebrow">About AkroMarketing</span>
+      <h2 id="about-title">A modern agency with roots in Bihar and a global client focus.</h2>
+      <p>AkroMarketing is a web development and digital marketing agency founded by Akshat Roy and based in Darbhanga, Bihar. We help businesses build a stronger digital presence through modern web development, creative branding, and strategic digital marketing.</p>
+      <p>Our approach is founder-led and client-focused. We aim to serve businesses across India and the United States, from local businesses to ambitious brands in Texas, New York City, and San Francisco.</p>
+    </div>
+    <ul>
+      <li><i class="dot" aria-hidden="true"></i><div><b>Founder-led</b><span>Direct involvement from the founder in how we work with clients.</span></div></li>
+      <li><i class="dot" aria-hidden="true"></i><div><b>Client-focused</b><span>Every decision is tied back to your business goals.</span></div></li>
+      <li><i class="dot" aria-hidden="true"></i><div><b>India &amp; USA</b><span>Services available to businesses in both markets.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="founder" class="alt" aria-labelledby="founder-title">
+  <div class="wrap founder">
+    <figure class="portrait" style="margin:0">
+      <!-- To use your own photo: replace the .ph block below with
+           <img src="your-photo.jpg" alt="Akshat Roy, Founder &amp; CEO of AkroMarketing"> -->
+      <div class="ph">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+        <span>Founder portrait placeholder<br>Replace with your photo</span>
+      </div>
+    </figure>
+    <div>
+      <span class="eyebrow">Founder &amp; CEO</span>
+      <h2 id="founder-title">Built on Vision. Driven by Growth.</h2>
+      <div class="name">Akshat Roy</div>
+      <div class="role">Founder &amp; CEO, AkroMarketing</div>
+      <p class="desc">AkroMarketing was founded by Akshat Roy with a vision to help businesses build a stronger digital presence through modern web development, creative branding, and strategic digital marketing. We combine creativity, technology, and business-focused thinking to help ambitious brands grow online.</p>
+      <blockquote>
+        <p>We believe great digital work starts with curiosity and creativity, and is measured by the growth it brings to your business. Our goal is simple: to help businesses grow online through innovation and thoughtful design.</p>
+        <cite>Akshat Roy, Founder &amp; CEO</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="reach" aria-labelledby="reach-title">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Our Reach</span>
+      <h2 id="reach-title">Local Roots. Global Ambition.</h2>
+      <p>Rooted in Darbhanga, Bihar, AkroMarketing aims to serve businesses across India and the United States. From local businesses to ambitious brands in Texas, New York City, and San Francisco, we bring modern digital solutions to businesses looking to strengthen their online presence.</p>
+    </div>
+
+    <div class="reach-map">
+      <svg viewBox="0 0 900 260" role="img" aria-label="Stylized graphic connecting our base in Darbhanga, Bihar, India with markets served in the United States: Texas, New York City, and San Francisco. Not a geographic map.">
+        <defs>
+          <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="rgba(255,255,255,.1)"/></pattern>
+          <linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#d6b36a"/><stop offset="1" stop-color="#7c6cff"/></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="900" height="260" fill="url(#dots)"/>
+        <!-- arcs from base to US markets -->
+        <path class="dash" d="M760 170 C 600 10, 300 10, 150 120" fill="none" stroke="url(#arc)" stroke-width="1.6"/>
+        <path class="dash" d="M760 170 C 620 60, 380 60, 230 150" fill="none" stroke="url(#arc)" stroke-width="1.6" opacity=".7"/>
+        <path class="dash" d="M760 170 C 640 120, 480 130, 300 120" fill="none" stroke="url(#arc)" stroke-width="1.6" opacity=".5"/>
+        <!-- US markets -->
+        <g font-family="system-ui,sans-serif" font-size="13" fill="#ecebf3">
+          <circle cx="150" cy="120" r="6" fill="#7c6cff"/><text x="150" y="146" text-anchor="middle">San Francisco</text>
+          <circle cx="230" cy="150" r="6" fill="#7c6cff"/><text x="230" y="176" text-anchor="middle">Texas</text>
+          <circle cx="300" cy="120" r="6" fill="#7c6cff"/><text x="300" y="104" text-anchor="middle">New York City</text>
+          <text x="225" y="226" text-anchor="middle" fill="#9a9ab0" font-size="12" letter-spacing="2">UNITED STATES · MARKETS SERVED</text>
+        </g>
+        <!-- base -->
+        <circle class="pulse" cx="760" cy="170" r="8" fill="#d6b36a"/>
+        <circle cx="760" cy="170" r="8" fill="#d6b36a"/>
+        <g font-family="system-ui,sans-serif" font-size="13" fill="#ecebf3">
+          <text x="760" y="198" text-anchor="middle">Darbhanga, Bihar</text>
+          <text x="760" y="226" text-anchor="middle" fill="#9a9ab0" font-size="12" letter-spacing="2">INDIA · OUR BASE</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="reach-cols">
+      <article class="region india" aria-labelledby="india-h">
+        <h3 id="india-h">India <span class="tag tag-base">Our base</span></h3>
+        <p>Where AkroMarketing is rooted.</p>
+        <div class="locs">
+          <div class="loc"><b>Darbhanga, Bihar</b><small>Home base</small></div>
+        </div>
+      </article>
+      <article class="region us" aria-labelledby="us-h">
+        <h3 id="us-h">United States <span class="tag tag-mkt">Markets served</span></h3>
+        <p>Businesses we aim to serve across the US.</p>
+        <div class="locs">
+          <div class="loc"><b>Texas</b><small>Market served</small></div>
+          <div class="loc"><b>New York City, New York</b><small>Market served</small></div>
+          <div class="loc"><b>San Francisco, California</b><small>Market served</small></div>
+        </div>
+      </article>
+    </div>
+    <p class="note">Darbhanga, Bihar is our base. Texas, New York City, and San Francisco are markets we serve, not physical offices.</p>
+  </div>
+</section>
+
+<section id="contact" class="alt cta" aria-labelledby="cta-title">
+  <div class="wrap">
+    <h2 id="cta-title">Ready to strengthen your online presence?</h2>
+    <p>Tell us about your business and goals. We'll help you plan the right web and digital marketing approach.</p>
+    <a class="btn btn-primary" href="mailto:akshat.roy307@gmail.com">Get in touch</a>
+    <p style="margin:18px auto 0;font-size:.95rem">Or email Akshat Roy directly at <a href="mailto:akshat.roy307@gmail.com" style="color:var(--gold2);text-decoration:underline">akshat.roy307@gmail.com</a></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="#top" class="logo">Akro<span>Marketing</span></a>
+        <p style="margin-top:14px;max-width:360px">A founder-led web development and digital marketing agency with roots in Bihar and an international client focus.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#founder">Founder &amp; CEO</a></li>
+          <li><a href="#reach">Our Reach</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Where we work</h4>
+        <ul>
+          <li>Based in Darbhanga, Bihar, India</li>
+          <li>Serving businesses in India</li>
+          <li>Serving the US: Texas, New York City, San Francisco</li>
+          <li>Contact: <a href="mailto:akshat.roy307@gmail.com" style="color:var(--gold2)">akshat.roy307@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; <span id="yr">2026</span> AkroMarketing. Founded by Akshat Roy.</span>
+      <span>Web Development &middot; Digital Marketing &middot; Branding</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
